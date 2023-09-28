@@ -290,20 +290,19 @@
                         <div class="card-header py-3 mb-3">
                             <h4 class="my-0 fw-normal">Оставьте свои данные</h4>
                         </div>
-                        <div class="form">
+                        <form method="get">
                             <div class="form-group mb-3">
-                                <input type="text" class="form-control" id="exampleInputName" placeholder="Email"
+                                <input name="name" type="text" class="form-control" id="exampleInputName" placeholder="Имя"
                                        aria-describedby="emailHelp">
                             </div>
                             <div class="form-group mb-3">
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Имя"
+                                <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"
                                        aria-describedby="emailHelp">
                             </div>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Отправить</button>
-                        </div>
+                            <button type="submit" class="w-100 btn btn-lg btn-outline-success">Отправить</button>
+                        </form>
                     </div>
                 </div>
-            </div>
             <div class="text-center">
                 <h1 class="display-4 fw-normal text-body-emphasis">FAQ</h1>
                 <p class="fs-5 text-body-secondary">Часто задаваемые вопросы</p>
